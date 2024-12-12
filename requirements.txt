@@ -1,0 +1,10 @@
+# requirements.txt
+
+pandas
+beautifulsoup4
+selenium
+webdriver_manager
+plotly==5.9.0
+streamlit==1.13.0
+statsmodels
+numpy>=1.21.0
