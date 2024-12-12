@@ -8,3 +8,4 @@ plotly==5.9.0
 streamlit==1.13.0
 statsmodels
 numpy>=1.21.0
+altair==5.5.0
