@@ -43,7 +43,9 @@ Este comando realizará el scraping de los datos climáticos y guardará los res
 
 ## Visualización de Datos
 
-Para visualizar los datos utilizando el dashboard de Streamlit, ejecuta el siguiente comando:
+Es posible visualizar el dashboard a través de Streamlit Cloud en: [Link Streamlit Cloud](https://entrega-open-data-and-data-viz-dynamic.streamlit.app/)
+
+También es posible visualizar el dashboard localmente a través del dashboard de Streamlit, ejecutando el siguiente comando:
 
 ```bash
 streamlit run dashboard.py
@@ -51,7 +53,6 @@ streamlit run dashboard.py
 
 Esto abrirá una interfaz web interactiva donde podrás explorar las anomalías de temperatura y precipitación a lo largo del tiempo.
 
-Es posible visualizar el dashboard a través de Streamlit Cloud en: 
 
 ## Estructura del Proyecto
 
