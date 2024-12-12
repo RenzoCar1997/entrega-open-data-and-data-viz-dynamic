@@ -8,4 +8,4 @@ plotly==5.9.0
 streamlit==1.13.0
 statsmodels
 numpy>=1.21.0
-altair==4.1.0 # Cambiar a una versión compatible con
+altair==4.1.0 # Cambiar a una versión compatible con Streamlit
