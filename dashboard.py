@@ -11,7 +11,12 @@ import plotly.graph_objects as go
 import statsmodels.api as sm 
 
 # Configurar localización a español
-locale.setlocale(locale.LC_TIME, 'es_ES.UTF-8')  
+
+try:
+    locale.setlocale(locale.LC_TIME, 'es_ES.UTF-8')
+except locale.Error:
+    locale.setlocale(locale.LC_TIME, 'C')  # Utiliza la configuración local por defecto
+
 
                  
 # Configuración del dashboard
